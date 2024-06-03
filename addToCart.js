@@ -1,6 +1,6 @@
-import { getCartProductFromLS } from "./getCartProduct.JS";
-import { showToast } from "./showToast";
-import { updateCartValue } from "./updateCartValue";
+import { getCartProductFromLS } from "./getCartProductNew.js";
+import { showToast } from "./showToast.js";
+import { updateCartValue } from "./updateCartValue.js";
 
 //get the cart from local storage
 //update the cart value and also to get the data always ready from localstorage

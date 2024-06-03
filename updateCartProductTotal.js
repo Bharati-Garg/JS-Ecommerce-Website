@@ -1,4 +1,4 @@
-import { getCartProductFromLS } from "./getCartProduct.JS";
+import { getCartProductFromLS } from "./getCartProduct.js";
 
 export const updateCartProductTotal = () => {
   let productSubTotal = document.querySelector(".productSubTotal");

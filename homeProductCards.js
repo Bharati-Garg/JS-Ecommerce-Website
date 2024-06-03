@@ -1,10 +1,11 @@
-import { addToCart } from "./addToCart";
-import { homeQuantityToggle } from "./homeQuantityToggle";
+import { addToCart } from "./addToCart.js";
+import { homeQuantityToggle } from "./homeQuantityToggle.js";
 
 const productContainer = document.querySelector("#productContainer");
 const productTemplate = document.querySelector("#productTemplate");
 
 export const showProductContainer = (products) => {
+  //console.log(products);
   if (!products) {
     return false;
   }
