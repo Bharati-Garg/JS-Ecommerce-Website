@@ -41,3 +41,4 @@ export const showProductContainer = (products) => {
     productContainer.append(productClone);
   });
 };
+console.log("hello");
